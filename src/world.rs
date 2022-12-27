@@ -20,3 +20,5 @@ impl Plugin for WorldPlugin {
 fn add_camera(mut commands: Commands) {
     commands.spawn(Camera2dBundle::default());
 }
+
+fn generate_map() {}
